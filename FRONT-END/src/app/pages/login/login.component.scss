@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  padding: 16px 16px 24px 16px;
+  background: rgba(20, 39, 85, 0.405);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1,), 0 8px 16px rgba(0,0,0,0.1);
+  width: 25rem;
+}
+
+from a, input, button {
+  display: block;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  outline: none;
+
+}
+
+input:focus {
+  border-color: rgba(20, 39, 85, 0.915);
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+input[placeholder] {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+}
+form a{
+  font-size: 14px;
+  color:rgba(20, 39, 85, 0.915);
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  text-decoration: none;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dadde1;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+input::placeholder {
+  font-size: 18px;
+  color: #1d2129;
+  opacity: 0.6;
+}
+.entrar, .criar-conta {
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition:200ms cubic-bezier(.08,.52,.52,1);
+}
+.entrar {
+  font-size: 20px;
+  background: #c0392b;
+  width: 100%;
+}
+.entrar:hover{
+  background: #732016;
+}
+
+.criar-conta {
+  font-size: 17px;
+  background: #c0392b;;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.criar-conta:hover {
+  background: #732016;
+}
+
+

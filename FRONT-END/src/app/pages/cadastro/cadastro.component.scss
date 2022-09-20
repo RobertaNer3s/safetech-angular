@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.space-navbar {
+  padding: 20px;
+  height: 20px;
+
+}
+
+.form-box {
+  background-color: rgba(20, 39, 85, 0.405);
+  backdrop-filter: blur(45px);
+  padding: 30px 40px;
+  width: 30rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.form-box h2 {
+  color: #c0392b;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.form-box p {
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.form-box p a {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.form-box form {
+  margin: 20px 0;
+}
+
+form .input-group {
+  margin-bottom: 15px;
+}
+form .input-group label {
+  color: #3d3d3d;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+form .input-group input {
+  width: 100%;
+  height: 47px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  outline: none;
+  border: 2px solid transparent;
+  padding: 15px;
+  font-size: 15px;
+  color: #616161;
+  transition: all 0.4s ease;
+}
+form .input-group input:focus {
+  border-color: rgb(20, 40, 85);
+}
+form .input-group button {
+  width: 100%;
+  height: 47px;
+  background: #c0392b;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
